@@ -1,0 +1,64 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar .logo {
+  font-weight: bold;
+  width: 197px;
+  height: auto;
+  gap: 11.5px;
+  color: orange;
+  position: relative;
+  left: 50px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 15px;
+}
+.Location-text {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  position: relative;
+  right: 120px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  color: #dba206;
+}
+
+.search input {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+}
+
+.login-btn {
+  background-color:  #fff;
+  color: orange;
+  border-bottom: ridge 2px orange;
+  border-top: none;
+  border-left: 2px ridge orange;
+  border-right: 2px ridge orange;
+  padding: 5px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  right: 100px;
+}
+

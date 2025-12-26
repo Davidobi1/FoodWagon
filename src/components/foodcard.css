@@ -1,0 +1,39 @@
+.food-card {
+  width: 250px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  position: relative;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.food-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+
+.food-card h3 {
+  margin: 10px 0 5px 0;
+  font-size: 1.1rem;
+  position: relative;
+  right:70px;
+}
+
+.food-card b {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  position: relative;
+  margin-right: 120px;
+  display: inline-block;
+  padding: 6px 10px;
+  background-color: #f2d4be ;
+  color: #f26b0a ;
+  border-radius: 7px;
+}
+
+
